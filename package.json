@@ -1,0 +1,30 @@
+{
+  "name": "@aks007/node-base",
+  "version": "1.0.0",
+  "description": "NodeBase code for basic tools",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build-tsc": "tsc",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://npmjs.com/aks007/NodeBase/"
+  },
+  "keywords": [
+    "base",
+    "node-base"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "@aks007/node-logger": "^1.0.0"
+  }
+}

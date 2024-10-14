@@ -29,16 +29,17 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "name": "@aks007/node-base",
+  "name": "@aks007/kafka-js",
   "repository": {
     "type": "git",
-    "url": "https://npmjs.com/aks007/NodeBase/"
+    "url": "https://npmjs.com/aks007/NodeLogger/"
   },
   "scripts": {
     "build": "tsup",
     "build-tsc": "tsc",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "npm publish --access=public"
   },
   "types": "./dist/index.d.ts",
   "version": "1.0.0"

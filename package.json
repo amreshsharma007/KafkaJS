@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "kafkajs": "^2.2.4",
-    "@aks007/node-logger": "^1.0.0"
+    "@aks007/logger": "^1.0.0"
   },
-  "description": "NodeBase code for basic tools",
+  "description": "KafkaJS wrapper for nodejs app",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",

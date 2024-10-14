@@ -1,7 +1,6 @@
 import BaseKafkaService from './base-kafka.service';
 import QueueInterface from '../interfaces/queue.interface';
 import { Message } from 'kafkajs';
-import { Error } from 'mongoose';
 import { Callback1Void } from '../interfaces/callbacks';
 
 export default class KafkaQueueService<Entry>

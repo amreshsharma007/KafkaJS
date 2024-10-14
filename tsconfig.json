@@ -27,8 +27,7 @@
       "./src/types"
     ],
     "types": [
-      "node",
-      "express"
+      "node"
     ],
     "removeComments": false
   }
